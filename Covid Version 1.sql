@@ -1,4 +1,4 @@
-/*
+
 Select Location, date, total_cases, new_cases, total_deaths, population
 From [dbo].[CovidDeaths]
 order by 1,2
@@ -108,6 +108,6 @@ Join [dbo].[CovidVaccinations]vac
 	and dea.date = vac.date
 where dea.continent is not null	
 --order by 2,3
-*/
+
 Select *
 From [dbo].[PercentPopulationVaccinated]
